@@ -1,0 +1,8 @@
+// script that lists all databases in MongoDB
+db.school.find({
+    name:"Holberton school"
+})
+db.school.update(
+    {name:"Holberton school"},
+    {$set: {address:"972 Mission street"}}
+    )
