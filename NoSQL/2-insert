@@ -1,4 +1,4 @@
 // script that lists all databases in MongoDB
-db.school.insertOne({
+db.my_db.insertOne({
     name:"Holberton school"
 })
