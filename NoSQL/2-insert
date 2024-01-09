@@ -1,4 +1,4 @@
 // script that lists all databases in MongoDB
-db.my_db.school({
+db.school.my_db({
     name:"Holberton school"
 })
