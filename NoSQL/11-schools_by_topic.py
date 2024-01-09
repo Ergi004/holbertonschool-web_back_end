@@ -10,4 +10,4 @@ def schools_by_topic(mongo_collection, topic):
    """
 
    value = {"topics": topic}
-    return mongo_collection.find(value)
+   return mongo_collection.find(value)
