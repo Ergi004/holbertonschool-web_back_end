@@ -3,9 +3,9 @@ export default class NeighborhoodsList {
       this.sanFranciscoNeighborhoods = ['SOMA', 'Union Square'];
     }
   
-    addNeighborhood = (newNeighborhood) => {
-      this.sanFranciscoNeighborhoods.push(newNeighborhood);
-      return this.sanFranciscoNeighborhoods;
-    }
+    this.addNeighborhood = (newNeighborhood) => {
+        this.sanFranciscoNeighborhoods.push(newNeighborhood);
+        return this.sanFranciscoNeighborhoods;
+      };
   }
   
