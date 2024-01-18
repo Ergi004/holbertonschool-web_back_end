@@ -35,10 +35,10 @@ export default class Pricing {
   }
 
   displayFullPrice() {
-    return this._amount + this._currency.name + " (" + this._currency.code + ")";
+    return `${this._amount} ${this._currency.name} (${this._currency.code})`;
   }
 
-  convertPrice(amount, conversionRate) {
+  static convertPrice(amount, conversionRate) {
     if (typeof amount !== 'number' || typeof conversionRate !== 'number') {
       throw new TypeError('Both amount and conversionRate must be numbers');
     }
